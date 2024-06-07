@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import  { FC } from 'react'
 import { PDFDownloadLink } from '@react-pdf/renderer'
 import { Invoice, } from '../data/types'
 import { useDebounce } from '@uidotdev/usehooks'
@@ -10,7 +10,7 @@ interface Props {
   setData(data: Invoice): void
 }
 
-const Download: FC<Props> = ({ data, setData }) => {
+const Download: FC<Props> = ({ data }) => {
   const debounced = useDebounce(data, 500)
 
 
