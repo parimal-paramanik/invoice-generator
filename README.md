@@ -40,7 +40,7 @@
 3. **Run the application:**
 
     ```sh
-    npm start
+    npm run dev
     ```
 
 4. **Open your browser and navigate to:**
